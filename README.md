@@ -9,7 +9,7 @@ A professional, component-driven Angular 18 task management application featurin
 ## 🔗 Live Demo
 
 Experience the live application online:  
-🚀 **[View Live Demo](https://todolist-agwst8yfe-waleed-mohamed-s-projects.vercel.app/)** *(Replace with your actual deployment link)*
+🚀 **[View Live Demo](https://todolist-agwst8yfe-waleed-mohamed-s-projects.vercel.app/)** 
 
 ---
 
