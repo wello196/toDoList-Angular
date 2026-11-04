@@ -1,0 +1,26 @@
+
+ <section id="tasks">
+ @if(!isAdded){
+         <header>
+            <h2>{{name}}'s Tasks</h2>
+        
+        <menu>
+            <button (click)="onStartAddTask()">Add Task</button>
+        </menu>
+    </header>
+    <ul>
+        @for(task of selectedUserTask; track task.id){
+            <li>
+                <app-single-task [task]="task" />
+            </li>
+        }
+        
+        
+        
+    </ul>
+    }
+   
+    @else{
+        <app-new-task (cancel)="onCancelAddTask()" (add)="onSubmit($event)"/>
+    }
+</section>
